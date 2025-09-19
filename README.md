@@ -16,3 +16,37 @@ Before running the labs, ensure you have:
  or a Kubernetes cluster (kind, k3s, or cloud provider)
 
 - Basic knowledge of YAML and containerization
+
+### Check Installation
+```bash
+kubectl version --client
+minikube version
+```
+### Start First Cluster
+```bash
+minikube start
+kubectl get nodes
+kubectl cluster-info
+
+```
+
+### Basic Commands Namespace
+```bash
+minikube start
+kubectl get nodes
+kubectl cluster-info
+```
+### Pods
+```bash
+minikube start
+kubectl get nodes
+kubectl cluster-info
+```
+
+### Helpful Shortcuts
+```bash
+kubectl get all
+kubectl describe <resource> <name>
+kubectl explain pod
+
+```
